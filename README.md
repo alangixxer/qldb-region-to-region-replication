@@ -53,4 +53,4 @@ Keep as default.
 
 https://github.com/alangixxer/qldb-simulation-tool can be used. For high TPS configurations, additional kinesis shards will be needed.
 
-
+Ensure that the QLDB Ledger name is chagned from "default" to the correct Ledger name.
