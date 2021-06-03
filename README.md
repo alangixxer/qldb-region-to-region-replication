@@ -28,9 +28,6 @@ Launch one of these AWS CloudFormation templates in the Region of your choice.
 Region| Launch
 ------|-----
 US East (N. Virginia) | [Launch in us-east-1](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateUrl=https%3A%2F%2Fqldb-streaming-lab-us-east-1.s3.amazonaws.com%2Fdev%2Fcfn_templates%2Fqldb-dr-primary-region.yml&stackName=qldb-region-to-region&param_KinesisStreamName=RegionStream&param_QLDBLedgerName=region-to-region&param_ReplicationRegion=us-east-2)
-US East (Ohio) | [Launch in us-east-2](https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/quickcreate?templateUrl=https%3A%2F%2Fqldb-streaming-lab-us-east-2.s3.amazonaws.com%2Fdev%2Fcfn_templates%2Fqldb-dr-primary-region.yml&stackName=qldb-region-to-region&param_KinesisStreamName=RegionStream&param_QLDBLedgerName=region-to-region&param_ReplicationRegion=us-east-1)
-US West (Oregon) | [Launch in us-west-2](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/quickcreate?templateUrl=https%3A%2F%2Fqldb-streaming-lab-us-west-2.s3.amazonaws.com%2Fdev%2Fcfn_templates%2Fqldb-dr-primary-region.yml&stackName=qldb-region-to-region&param_KinesisStreamName=RegionStream&param_QLDBLedgerName=region-to-region&param_ReplicationRegion=us-east-2)
-EU (Frankfurt) | [Launch in eu-central-1](https://console.aws.amazon.com/cloudformation/home?region=eu-central-1#/stacks/quickcreate?templateUrl=https%3A%2F%2Fqldb-streaming-lab-eu-central-1.s3.amazonaws.com%2Fdev%2Fcfn_templates%2Fqldb-dr-primary-region.yml&stackName=qldb-region-to-region&param_KinesisStreamName=RegionStream&param_QLDBLedgerName=region-to-region&param_ReplicationRegion=us-east-2)
 
 ### 2. Fill out the CloudFormation parameters.
 
@@ -40,10 +37,7 @@ Keep as default.
 
 Region| Launch
 ------|-----
-US East (N. Virginia) | [Launch in us-east-1](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateUrl=https%3A%2F%2Fqldb-streaming-lab-us-east-1.s3.amazonaws.com%2Fdev%2Fcfn_templates%2Fqldb-dr-secondary-region.yml&stackName=qldb-region-to-region&param_KinesisStreamName=RegionStream&param_QLDBLedgerName=region-to-region)
 US East (Ohio) | [Launch in us-east-2](https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/quickcreate?templateUrl=https%3A%2F%2Fqldb-streaming-lab-us-east-2.s3.amazonaws.com%2Fdev%2Fcfn_templates%2Fqldb-dr-secondary-region.yml&stackName=qldb-region-to-region&param_KinesisStreamName=RegionStream&param_QLDBLedgerName=region-to-region)
-US West (Oregon) | [Launch in us-west-2](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/quickcreate?templateUrl=https%3A%2F%2Fqldb-streaming-lab-us-west-2.s3.amazonaws.com%2Fdev%2Fcfn_templates%2Fqldb-dr-secondary-region.yml&stackName=qldb-region-to-region&param_KinesisStreamName=RegionStream&param_QLDBLedgerName=region-to-region)
-EU (Frankfurt) | [Launch in eu-central-1](https://console.aws.amazon.com/cloudformation/home?region=eu-central-1#/stacks/quickcreate?templateUrl=https%3A%2F%2Fqldb-streaming-lab-eu-central-1.s3.amazonaws.com%2Fdev%2Fcfn_templates%2Fqldb-dr-secondary-region.yml&stackName=qldb-region-to-region&param_KinesisStreamName=RegionStream&param_QLDBLedgerName=region-to-region)
 
 ### 4. Fill out the CloudFormation parameters.
 
